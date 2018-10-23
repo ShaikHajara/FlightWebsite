@@ -65,7 +65,7 @@ public class RegisterTest extends BaseTest {
 		RegisterPageObject.username.sendKeys(usernameParameter);
 		RegisterPageObject.password.sendKeys(passwordParameter);
 		RegisterPageObject.confirmPassword.sendKeys(confirmPwdParameter);
-		RegisterPageObject.submit.click();
+		// RegisterPageObject.submit.click();
 
 	}
 
