@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="43.466" tests="18" errors="0" skipped="0" failures="9">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Shaik.Hajara\eclipse-workspace\Flight\target\test-classes;C:\Users\Shaik.Hajara\eclipse-workspace\Flight\target\classes;C:\Users\Shaik.Hajara\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Shaik.Hajara\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Shaik.Hajara\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Shaik.Hajara\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Shaik.Hajara\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Shaik.Hajara\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Shaik.Hajara\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Shaik.Hajara\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Shaik.Hajara\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Shaik.Hajara\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Shaik.Hajara\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Shaik.Hajara\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\poi\poi-ooxml\4.0.0\poi-ooxml-4.0.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.0\poi-ooxml-schemas-4.0.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Shaik.Hajara\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\SHAIK~1.HAJ\AppData\Local\Temp\surefire17059644888493436723\surefirebooter12384213420744350316.jar C:\Users\Shaik.Hajara\AppData\Local\Temp\surefire17059644888493436723 2018-10-19T17-16-23_632-jvmRun1 surefire3290174562618898058tmp surefire_017393412659949005408tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Shaik.Hajara\eclipse-workspace\Flight\target\test-classes;C:\Users\Shaik.Hajara\eclipse-workspace\Flight\target\classes;C:\Users\Shaik.Hajara\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Shaik.Hajara\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Shaik.Hajara\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Shaik.Hajara\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Shaik.Hajara\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Shaik.Hajara\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Shaik.Hajara\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Shaik.Hajara\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Shaik.Hajara\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Shaik.Hajara\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Shaik.Hajara\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Shaik.Hajara\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Shaik.Hajara\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\poi\poi-ooxml\4.0.0\poi-ooxml-4.0.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.0\poi-ooxml-schemas-4.0.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Shaik.Hajara\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Shaik.Hajara\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Shaik.Hajara"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Shaik.Hajara\eclipse-workspace\Flight"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SHAIK~1.HAJ\AppData\Local\Temp\surefire17059644888493436723\surefirebooter12384213420744350316.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="user.name" value="Shaik.Hajara"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="C:\Users\Shaik.Hajara\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHAIK~1.HAJ\AppData\Local\Temp\"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="user.dir" value="C:\Users\Shaik.Hajara\eclipse-workspace\Flight"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre-10.0.2/bin/server;C:/Program Files/Java/jre-10.0.2/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\apache-maven-3.5.4\bin;C:\Users\Shaik.Hajara\AppData\Local\Android\android-sdk1\platform-tools;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP2\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\TestingWhiz Enterprise Edition\plugins\com.cygnet.autotest_6.0.0\libs;C:\Users\Shaik.Hajara\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Shaik.Hajara\AppData\Roaming\npm;C:\Users\Shaik.Hajara\AppData\Local\Yarn\bin;C:\Windows\System32;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="54.0"/>
+  </properties>
+  <testcase name="enterValues" classname="com.automate.flight.registertest.RegisterTest" time="0.015">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.automate.flight.registertest.RegisterTest.enterValues(RegisterTest.java:50)
+</failure>
+    <system-out><![CDATA[D:\GeckoDriver\geckodriver.exe
+9
+2
+[0, 0] = STRING; Value = firstName
+[0, 1] = STRING; Value = Atmecs
+[1, 0] = STRING; Value = lastName
+[1, 1] = STRING; Value = Technology
+[2, 0] = STRING; Value = phone
+[2, 1] = NUMERIC; Value = 9.100023203E9
+[3, 0] = STRING; Value = email
+[3, 1] = STRING; Value = atmecstechnology@gmail.com
+[4, 0] = STRING; Value = address1
+[4, 1] = STRING; Value = Hyderabad
+[5, 0] = STRING; Value = address2
+[5, 1] = STRING; Value = Hyderabad
+[6, 0] = STRING; Value = city
+[6, 1] = STRING; Value = Hyderabad
+[7, 0] = STRING; Value = state
+[7, 1] = STRING; Value = Telangana
+[8, 0] = STRING; Value = postalCode
+[8, 1] = NUMERIC; Value = 500089.0
+[[Ljava.lang.Object;@c4c0b41
+]]></system-out>
+    <system-err><![CDATA[1539949587699	geckodriver	INFO	Listening on 127.0.0.1:23467
+1539949588600	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1539949596560	Marionette	INFO	Listening on port 54934
+1539949597122	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539949605653	Marionette	DEBUG	[6442450945] Frame script loaded
+1539949605668	Marionette	DEBUG	[6442450945] Frame script registered
+Oct 19, 2018 5:16:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1539949605857	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539949606738	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539949606738	Marionette	DEBUG	[6442450945] Received DOM event unload for about:blank
+1539949606808	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://newtours.demoaut.com/
+1539949607432	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://newtours.demoaut.com/
+1539949608739	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://newtours.demoaut.com/
+1539949609405	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://newtours.demoaut.com/
+1539949609405	Marionette	DEBUG	[6442450945] Received DOM event unload for http://newtours.demoaut.com/
+1539949609458	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://newtours.demoaut.com/mercuryregister.php?osCsid=260a31494887fd6a358698e3d8a3519b
+1539949609703	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://newtours.demoaut.com/mercuryregister.php?osCsid=260a31494887fd6a358698e3d8a3519b
+]]></system-err>
+  </testcase>
+  <testcase name="enterValues" classname="com.automate.flight.registertest.RegisterTest" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.automate.flight.registertest.RegisterTest.enterValues(RegisterTest.java:50)
+</failure>
+    <system-out><![CDATA[[[Ljava.lang.Object;@c4c0b41
+]]></system-out>
+    <system-err><![CDATA[1539949609835	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://newtours.demoaut.com/mercuryregister.php?osCsid=260a31494887fd6a358698e3d8a3519b
+1539949610501	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://newtours.demoaut.com/mercuryregister.php?osCsid=260a31494887fd6a358698e3d8a3519b
+1539949610502	Marionette	DEBUG	[6442450945] Received DOM event unload for http://newtours.demoaut.com/mercuryregister.php?osCsid=260a31494887fd6a358698e3d8a3519b
+1539949610527	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://newtours.demoaut.com/mercuryregister.php
+1539949610797	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://newtours.demoaut.com/mercuryregister.php
+]]></system-err>
+  </testcase>
+  <testcase name="enterValues" classname="com.automate.flight.registertest.RegisterTest" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.automate.flight.registertest.RegisterTest.enterValues(RegisterTest.java:50)
+</failure>
+    <system-out><![CDATA[[[Ljava.lang.Object;@c4c0b41
+]]></system-out>
+    <system-err><![CDATA[1539949610906	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://newtours.demoaut.com/mercuryregister.php
+1539949611569	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://newtours.demoaut.com/mercuryregister.php
+1539949611571	Marionette	DEBUG	[6442450945] Received DOM event unload for http://newtours.demoaut.com/mercuryregister.php
+1539949611589	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://newtours.demoaut.com/mercuryregister.php
+1539949611872	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://newtours.demoaut.com/mercuryregister.php
+]]></system-err>
+  </testcase>
+  <testcase name="enterValues" classname="com.automate.flight.registertest.RegisterTest" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.automate.flight.registertest.RegisterTest.enterValues(RegisterTest.java:50)
+</failure>
+    <system-out><![CDATA[[[Ljava.lang.Object;@c4c0b41
+]]></system-out>
+    <system-err><![CDATA[1539949611963	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://newtours.demoaut.com/mercuryregister.php
+1539949612621	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://newtours.demoaut.com/mercuryregister.php
+1539949612622	Marionette	DEBUG	[6442450945] Received DOM event unload for http://newtours.demoaut.com/mercuryregister.php
+1539949612635	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://newtours.demoaut.com/mercuryregister.php
+1539949612925	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://newtours.demoaut.com/mercuryregister.php
+]]></system-err>
+  </testcase>
+  <testcase name="enterValues" classname="com.automate.flight.registertest.RegisterTest" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.automate.flight.registertest.RegisterTest.enterValues(RegisterTest.java:50)
+</failure>
+    <system-out><![CDATA[[[Ljava.lang.Object;@c4c0b41
+]]></system-out>
+    <system-err><![CDATA[1539949613033	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://newtours.demoaut.com/mercuryregister.php
+1539949613706	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://newtours.demoaut.com/mercuryregister.php
+1539949613706	Marionette	DEBUG	[6442450945] Received DOM event unload for http://newtours.demoaut.com/mercuryregister.php
+1539949613746	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://newtours.demoaut.com/mercuryregister.php
+1539949614003	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://newtours.demoaut.com/mercuryregister.php
+]]></system-err>
+  </testcase>
+  <testcase name="enterValues" classname="com.automate.flight.registertest.RegisterTest" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.automate.flight.registertest.RegisterTest.enterValues(RegisterTest.java:50)
+</failure>
+    <system-out><![CDATA[[[Ljava.lang.Object;@c4c0b41
+]]></system-out>
+    <system-err><![CDATA[1539949614117	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://newtours.demoaut.com/mercuryregister.php
+1539949614792	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://newtours.demoaut.com/mercuryregister.php
+1539949614793	Marionette	DEBUG	[6442450945] Received DOM event unload for http://newtours.demoaut.com/mercuryregister.php
+1539949614883	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://newtours.demoaut.com/mercuryregister.php
+1539949615131	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://newtours.demoaut.com/mercuryregister.php
+]]></system-err>
+  </testcase>
+  <testcase name="enterValues" classname="com.automate.flight.registertest.RegisterTest" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.automate.flight.registertest.RegisterTest.enterValues(RegisterTest.java:50)
+</failure>
+    <system-out><![CDATA[[[Ljava.lang.Object;@c4c0b41
+]]></system-out>
+    <system-err><![CDATA[1539949615267	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://newtours.demoaut.com/mercuryregister.php
+1539949615931	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://newtours.demoaut.com/mercuryregister.php
+1539949615933	Marionette	DEBUG	[6442450945] Received DOM event unload for http://newtours.demoaut.com/mercuryregister.php
+1539949615997	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://newtours.demoaut.com/mercuryregister.php
+1539949616236	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://newtours.demoaut.com/mercuryregister.php
+]]></system-err>
+  </testcase>
+  <testcase name="enterValues" classname="com.automate.flight.registertest.RegisterTest" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.automate.flight.registertest.RegisterTest.enterValues(RegisterTest.java:50)
+</failure>
+    <system-out><![CDATA[[[Ljava.lang.Object;@c4c0b41
+]]></system-out>
+    <system-err><![CDATA[1539949616368	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://newtours.demoaut.com/mercuryregister.php
+1539949617029	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://newtours.demoaut.com/mercuryregister.php
+1539949617031	Marionette	DEBUG	[6442450945] Received DOM event unload for http://newtours.demoaut.com/mercuryregister.php
+1539949617060	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://newtours.demoaut.com/mercuryregister.php
+1539949617324	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://newtours.demoaut.com/mercuryregister.php
+]]></system-err>
+  </testcase>
+  <testcase name="enterValues" classname="com.automate.flight.registertest.RegisterTest" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.automate.flight.registertest.RegisterTest.enterValues(RegisterTest.java:50)
+</failure>
+    <system-out><![CDATA[[[Ljava.lang.Object;@c4c0b41
+]]></system-out>
+    <system-err><![CDATA[1539949617402	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://newtours.demoaut.com/mercuryregister.php
+1539949618057	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://newtours.demoaut.com/mercuryregister.php
+1539949618058	Marionette	DEBUG	[6442450945] Received DOM event unload for http://newtours.demoaut.com/mercuryregister.php
+1539949618091	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://newtours.demoaut.com/mercuryregister.php
+1539949618351	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://newtours.demoaut.com/mercuryregister.php
+]]></system-err>
+  </testcase>
+  <testcase name="getData" classname="com.automate.flight.registertest.RegisterTest" time="0"/>
+  <testcase name="getData" classname="com.automate.flight.registertest.RegisterTest" time="0"/>
+  <testcase name="getData" classname="com.automate.flight.registertest.RegisterTest" time="0"/>
+  <testcase name="getData" classname="com.automate.flight.registertest.RegisterTest" time="0"/>
+  <testcase name="getData" classname="com.automate.flight.registertest.RegisterTest" time="0"/>
+  <testcase name="getData" classname="com.automate.flight.registertest.RegisterTest" time="0.001"/>
+  <testcase name="getData" classname="com.automate.flight.registertest.RegisterTest" time="0"/>
+  <testcase name="getData" classname="com.automate.flight.registertest.RegisterTest" time="0"/>
+  <testcase name="getData" classname="com.automate.flight.registertest.RegisterTest" time="0"/>
+</testsuite>
