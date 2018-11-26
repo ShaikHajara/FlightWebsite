@@ -32,6 +32,7 @@ public class ReadExcel {
 				System.out.println("[" + cell.getRowIndex() + ", " + cell.getColumnIndex() + "] = STRING; Value = "
 						+ cell.getStringCellValue());
 				result = cell.getStringCellValue();
+				System.out.println("Result" +result);
 			} else if (type == CellType.NUMERIC) {
 				if (DateUtil.isCellDateFormatted(cell)) {
 					System.out.println("[" + cell.getRowIndex() + ", " + cell.getColumnIndex() + "] = Date; Value = "
@@ -69,7 +70,9 @@ public class ReadExcel {
 	public static Object[][] getExcelData() {
 
 		final String sheetName = "Sheet1";
-		final String path = "D:\\Register1.xlsx";
+		File excelPathFromResources = new File("src/main/resources/excelfiles/Register.xlsx");
+		final String path=excelPathFromResources.getAbsolutePath();
+		System.out.println(path);
 
 		filePath = new File(path);
 		try {
@@ -87,31 +90,32 @@ public class ReadExcel {
 
 		final int totalRows = getRowCount(sheetName, path);
 		final int totalColumns = getColumnCount(sheetName, path);
-		data = new Object[totalRows][totalColumns];
+		data = new Object[totalRows-1][totalColumns-1];
 		for (int i = 1; i < totalRows; i++) {
-			for (int j = 0; j < totalColumns; j++) {
+			for (int j = 0; j < totalColumns-1; j++) {
 
 				xssfRow = sheet.getRow(i);
 				final XSSFCell cell = xssfRow.getCell(j);
 				final String value = getCellData(cell);
-				data[i][j] = value;
-				try {
-					fis.close();
-				} catch (final IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				try {
-					workbook.close();
-				} catch (final IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				System.out.println(value);
+				data[0][j] = value;
 			}
+		}
+		try {
+			fis.close();
+		} catch (final IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			workbook.close();
+		} catch (final IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		return data;
 	}
-
+	
 	public static int getRowCount(String sheetName, String path) {
 		sheet = workbook.getSheet(sheetName);
 		rowCount = sheet.getPhysicalNumberOfRows();

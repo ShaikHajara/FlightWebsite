@@ -1,7 +1,0 @@
-com\automate\flight\pageobjects\LoginPageObject.class
-com\automate\flight\homepage\HomePage.class
-com\automate\flight\basepage\BasePage.class
-com\automate\flight\pageobjects\HomePageObject.class
-com\automate\config\ReadConfigFile.class
-com\automate\flight\utility\ReadExcel.class
-com\automate\flight\pageobjects\RegisterPageObject.class

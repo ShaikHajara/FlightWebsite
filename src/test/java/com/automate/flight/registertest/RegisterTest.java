@@ -73,5 +73,6 @@ public class RegisterTest extends BaseTest {
 	public void init() {
 		homePage = new HomePage(driver);
 		registerPage = new RegisterPage(driver);
+		
 	}
 }

@@ -1,5 +1,6 @@
 package com.automate.config;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -30,8 +31,9 @@ public class ReadConfigFile {
 	public void getProperties() {
 
 		try {
-			fis = new FileInputStream(
-					"C:\\Users\\Shaik.Hajara\\eclipse-workspace\\Flight\\src\\main\\resources\\config\\config.properties");
+			File configFileFromResources = new File("src/main/resources/config/config.properties");
+			final String path=configFileFromResources.getAbsolutePath();
+			fis = new FileInputStream(path);
 		} catch (final FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
