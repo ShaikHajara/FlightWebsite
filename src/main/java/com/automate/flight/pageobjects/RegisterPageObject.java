@@ -1,5 +1,7 @@
 package com.automate.flight.pageobjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -33,7 +35,7 @@ public class RegisterPageObject {
 	public static WebElement postalCode;
 
 	@FindBy(xpath = "//select[ @name='country' ]")
-	public static WebElement countryDropDown;
+	public static List <WebElement> countryDropDown;
 
 	@FindBy(id = "email")
 	public static WebElement username;

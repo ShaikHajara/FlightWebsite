@@ -35,7 +35,7 @@ public class RegisterTest extends BaseTest {
 	// @Test
 	public void doRegistration() {
 
-		registerPage.getValuesFromDropDown();
+		//registerPage.getCountryValuesFromDropDown();
 	}
 
 	@Test(dataProvider = "getData", dataProviderClass = ReadExcel.class)
@@ -62,10 +62,11 @@ public class RegisterTest extends BaseTest {
 		RegisterPageObject.city.sendKeys(cityParameter);
 		RegisterPageObject.state.sendKeys(stateParameter);
 		RegisterPageObject.postalCode.sendKeys(postalCodeParameter);
+		//registerPage.selectOneCountry();
 		RegisterPageObject.username.sendKeys(usernameParameter);
 		RegisterPageObject.password.sendKeys(passwordParameter);
 		RegisterPageObject.confirmPassword.sendKeys(confirmPwdParameter);
-		// RegisterPageObject.submit.click();
+		RegisterPageObject.submit.click();
 
 	}
 

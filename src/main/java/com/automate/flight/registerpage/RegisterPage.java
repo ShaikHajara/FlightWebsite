@@ -1,6 +1,7 @@
 package com.automate.flight.registerpage;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
@@ -17,9 +18,12 @@ public class RegisterPage extends BasePage {
 
 		// TODO Auto-generated constructor stub
 	}
-
-	public void getValuesFromDropDown() {
-		final Select s = new Select(registerPageObj.countryDropDown);
+	
+	public void selectOneCountry() {
+		System.out.println(registerPageObj.countryDropDown.get(92));
+	}
+	public void getCountryValuesFromDropDown() {
+		final Select s = new Select((WebElement) registerPageObj.countryDropDown);
 		System.out.println(s.getOptions().stream().count());
 		s.getOptions().stream().forEach(li -> System.out.println(li.getText()));
 
