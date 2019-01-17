@@ -18,15 +18,20 @@ public class RegisterPage extends BasePage {
 
 		// TODO Auto-generated constructor stub
 	}
-	
-	public void selectOneCountry() {
-		System.out.println(registerPageObj.countryDropDown.get(92));
-	}
+
 	public void getCountryValuesFromDropDown() {
-		final Select s = new Select((WebElement) registerPageObj.countryDropDown);
+		final Select s = new Select((WebElement) RegisterPageObject.countryDropDown);
 		System.out.println(s.getOptions().stream().count());
 		s.getOptions().stream().forEach(li -> System.out.println(li.getText()));
 
+	}
+
+	public void register() {
+
+	}
+
+	public void selectOneCountry() {
+		System.out.println(RegisterPageObject.countryDropDown.get(92));
 	}
 
 }

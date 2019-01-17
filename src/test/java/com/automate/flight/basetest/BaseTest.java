@@ -23,8 +23,13 @@ public class BaseTest {
 	@BeforeClass
 	public void launchBrowser() {
 		setup("Chrome");
-		navigateToUrl();
+		navigateToRegisterPage();
+		// navigateToUrl();
 
+	}
+
+	public void navigateToRegisterPage() {
+		driver.get(readConfigFile.getRegisterPageUrl());
 	}
 
 	public void navigateToUrl() {

@@ -31,8 +31,8 @@ public class ReadConfigFile {
 	public void getProperties() {
 
 		try {
-			File configFileFromResources = new File("src/main/resources/config/config.properties");
-			final String path=configFileFromResources.getAbsolutePath();
+			final File configFileFromResources = new File("src/main/resources/config/config.properties");
+			final String path = configFileFromResources.getAbsolutePath();
 			fis = new FileInputStream(path);
 		} catch (final FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -47,6 +47,12 @@ public class ReadConfigFile {
 			e.printStackTrace();
 		}
 
+	}
+
+	public String getRegisterPageUrl() {
+		getProperties();
+		final String RegisterPageUrl = prop.getProperty("registerUrl");
+		return RegisterPageUrl;
 	}
 
 	public String getUrl() {
