@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automate.flight.utility.Data">
+      <class name="com.automate.flight.registertest.RegisterTest">
         <methods>
-          <include name="read"/>
+          <include name="enterValues"/>
+          <include name="init"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.automate.flight.utility.Data -->
+      </class> <!-- com.automate.flight.registertest.RegisterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

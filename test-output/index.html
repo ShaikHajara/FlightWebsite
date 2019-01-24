@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Shaik.Hajara\AppData\Local\Temp\testng-eclipse-464029954\testng-customsuite.xml</span>
+                    <span>C:\Users\Shaik.Hajara\AppData\Local\Temp\testng-eclipse-983027968\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.automate.flight.utility.Data" hash-for-method="read">read</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.automate.flight.registertest.RegisterTest" hash-for-method="enterValues(User, One, 8.945435944E9, abcd24@gmail.com, Hyderabad, Hyderabad, Hyderabad, Telangana, 500089.0, at...)">enterValues(User, One, 8.945435944E9, abcd24@gmail.com, Hyderabad, Hyderabad, Hyderabad, Telangana, 500089.0, at...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +120,15 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.automate.flight.utility.Data</span>
+              <span class="class-name">com.automate.flight.registertest.RegisterTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="read">
-                  </a> <!-- read -->
-                  <span class="method-name">read</span>
+                  <a name="enterValues(User, One, 8.945435944E9, abcd24@gmail.com, Hyderabad, Hyderabad, Hyderabad, Telangana, 500089.0, at...)">
+                  </a> <!-- enterValues(User, One, 8.945435944E9, abcd24@gmail.com, Hyderabad, Hyderabad, Hyderabad, Telangana, 500089.0, at...) -->
+                  <span class="method-name">enterValues</span>
+                  <span class="parameters">(User, One, 8.945435944E9, abcd24@gmail.com, Hyderabad, Hyderabad, Hyderabad, Telangana, 500089.0, atmecs, tech1@34, tech1@34)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +136,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Shaik.Hajara\AppData\Local\Temp\testng-eclipse-464029954\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Shaik.Hajara\AppData\Local\Temp\testng-eclipse-983027968\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +145,9 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.automate.flight.utility.Data&quot;/&gt;
+      &lt;class name=&quot;com.automate.flight.basetest.BaseTest&quot;/&gt;
+      &lt;class name=&quot;com.automate.flight.hometest.HomeTest&quot;/&gt;
+      &lt;class name=&quot;com.automate.flight.registertest.RegisterTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -158,7 +161,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,14 +189,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'read')
-data.setCell(0, 2, 'com.automate.flight.utility.Data')
-data.setCell(0, 3, 955);
+data.setCell(0, 1, 'enterValues')
+data.setCell(0, 2, 'com.automate.flight.registertest.RegisterTest')
+data.setCell(0, 3, 15528);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 955 ms</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,10 +222,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.automate.flight.utility.Data</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">read</span>
+              <div class="chronological-class-name">com.automate.flight.registertest.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">8839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterValues(User, One, 8.945435944E9, abcd24@gmail.com, Hyderabad, Hyderabad, Hyderabad, Telangana, 500089.0, at...)</span>
+                <span class="method-start">8900 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -3,10 +3,10 @@
 <suite name="All">
 	<test name="All tests">
 		<packages>
-	<!-- 	<package name="com.automate.flight.basetest"/>  -->
-	<!-- 	<package name="com.automate.flight.hometest"/> -->
-	<!-- 	<package name="com.automate.flight.registertest"/> -->
-	<package name="com.automate.flight.utility"></package>		
+	 	<package name="com.automate.flight.basetest"/>  
+	 	<package name="com.automate.flight.hometest"/> 
+	 	<package name="com.automate.flight.registertest"/> 
+	<!-- <package name="com.automate.flight.utility"></package>	 -->	
 		</packages>
 	</test>
 </suite>

@@ -11,6 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.DataProvider;
 
 public class ReadExcel {
 
@@ -68,7 +69,7 @@ public class ReadExcel {
 		return colCount;
 	}
 
-//	@DataProvider(name = "getData")
+	@DataProvider(name = "getData")
 	public static Object[][] getExcelData() {
 
 		final String sheetName = "Sheet1";
